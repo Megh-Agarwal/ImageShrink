@@ -41,7 +41,7 @@ function createMainWindow() {
         icon: `${__dirname}/assets/icons/Icon_256x256.png`,
         //sets the resize mode of the application window
         resizable: isDev,
-        //I dont know the use of this object.
+        //Configuration for integrating node and web preferences
         webPreferences: { 
             worldSafeExecuteJavaScript: true,
             nodeIntegration: true
